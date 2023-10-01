@@ -182,6 +182,7 @@ def main():
     user_output_file = sys.argv[2]
 
     if user_city in cities:
+        print (f'Exporting data for {user_city}...')
         election_data = get_election_data(cities, user_city, url)
         export_to_csv(election_data, user_output_file)
         print(f'CSV file "{user_output_file}" has been created.')
