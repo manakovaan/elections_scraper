@@ -27,7 +27,7 @@ Election results for Prostějov:
   
 - 1st argument: `Prostějov`
   
-- 2nd argument: `vysledky-prostejov.csv`
+- 2nd argument: `vysledky_prostejov.csv`
 
 Running the script:
 ```
